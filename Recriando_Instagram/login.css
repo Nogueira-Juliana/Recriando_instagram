@@ -1,0 +1,243 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/*.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100vw;
+    height: 100vh;
+}*/
+.celulares{
+    width: 500px;
+    height:600px;
+    margin-left: 280px;
+   
+    position:absolute;
+    
+}
+.cbranco{
+    width:290px;
+    height: 600px;
+    transform:rotate(5deg);
+}
+.cpreto{
+  width:300px;
+  margin-left: -100px;
+  height: 600px;
+}
+
+.teladelogin{
+    border: solid;
+    border-width: thin;
+    border-color: darkgray;
+    opacity: 80%;
+
+    display: flex;
+    justify-content:center;
+
+    
+    width: 320px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 800px;
+    float: center;
+    position: relative;
+
+}
+.logo{
+    height: fit-content;
+    position: absolute;
+    margin-top: 30px;
+
+}
+.logo img{
+    width: 160px;
+}
+
+.formulario{
+    width: 260px;
+    height: 140px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 2px;
+}
+.primeirocampo{
+    color: darkgray;
+    width: 260px;
+    line-height:16px;
+    padding: 10px;
+    padding-left: 8px;
+    border: solid;
+    border-width: thin;
+    border-color: darkgray;
+}
+
+.segundocampo{
+    color: darkgray;
+    width: 260px;
+    line-height:16px;
+    padding: 10px;
+    padding-left: 8px;
+    margin-top: 7px;
+    border: solid;
+    border-width: thin;
+    border-color: darkgray;
+}
+.entrar{
+    background-color:	#1E90FF;
+    opacity: 30%;
+    width: 260px;
+    line-height:30px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+
+}
+
+.divisao{
+    margin-top: 260px;
+  
+}
+.linha{
+    opacity: 30%;
+    align-content: center;
+    height: fit-content;
+    width: 100px;
+    position: relative;
+  
+}
+.linha2{
+    opacity: 30%;
+    align-content: center;
+    height: fit-content;
+    width: 100px;
+    position: relative;
+  
+}
+
+span{
+    opacity: 50%;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight:bolder;
+
+    height: fit-content;
+    align-content: center;
+    position: relative;
+    padding: 16px;
+
+}
+.facebook{
+   
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding-top: 10px;
+
+    width: fit-content;
+    position: relative;
+    display: block;
+
+    font-family: sans-serif;
+    color:#3b5998;
+    font-size: 14px;
+    text-decoration: none;
+}
+.recuperarsenha{
+    
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 80px;
+    
+    width: fit-content;
+    position: relative;
+    display: block;
+
+    font-size: 12px;
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.fb_logo{
+    width:18px;
+    height: 18px;
+    
+    margin-left: -25px;
+    position: absolute;
+ 
+}
+.formulario2{
+    width: 320px;
+    height: 60px;
+    position: absolute;
+    margin-top: 410px;
+    
+    border: solid;
+    border-width: thin;
+    border-color: darkgray;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+.cadastro{
+    opacity: 100%;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    color:	#0e64f1;
+    text-decoration: none;
+    margin-top: 23px;
+}
+.semconta {
+    opacity: 100%;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight:normal;
+    
+    height: fit-content;
+    align-content: center;
+    position: relative;
+    padding: 5px;
+    margin-top:18px;
+}
+.rodape{
+    margin-top:480px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.obter{
+    opacity: 100%;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight:normal;
+    
+    height: fit-content;
+   
+    display: flex;
+    position: absolute;
+    justify-content: center;
+
+}
+.aplebutton{
+    
+    width: 140px;
+    height: 70px;
+    position: relative;
+    margin-top: 40px;
+}
+.googlebutton{
+    
+    width: 140px;
+    height: 50px;
+    position: relative;
+    margin-top: 50px;
+    padding-left: 8px;
+}
